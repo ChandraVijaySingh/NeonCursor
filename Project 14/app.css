@@ -1,0 +1,24 @@
+*
+{box-sizing: border-box;}
+
+body,
+html,
+#neon{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#neon{
+    overflow: hidden;
+    touch-action: pan-up;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+}
+#neon canvas{
+    display: block;
+    position: fixed;
+    z-index: fixed;
+    top: 0;
+}
